@@ -128,6 +128,13 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "ArchotechMilkEggThing"]/label</xpath>
+				<value>
+					<label>prothean animal product</label>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ArchotechHermesBeacon"]/label</xpath>
 				<value>
 					<label>Prothean Hermes Beacon</label>
@@ -623,7 +630,13 @@
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "MealArchoAdvanced"]/description</xpath>
 				<value>
-					<description>A strange prothean device. During the cooking process the ingredient seemed to disappear, but the prepared food will manifest whenever the device is grabbed by someone with a desire to eat. Nobody really knows where the ingredients are stored before consumption.</description>
+					<description>A special meal prepared with prothean ingredients. Delicious and healthy.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "ArchotechMilkEggThing"]/description</xpath>
+				<value>
+					<description>A strange block of what appears to be a mix of milk and egg created by a prothean device. When eaten it changes its form to match the texture and taste of the consumer's favourite type of animal product. It also glows for some reason.</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
