@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Factions Expanded - Insectoids</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "VFEI_Artifacts_ArchotechEraser"]/label</xpath>
+				<value>
+					<label>prothean eraser</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "VFEI_Artifacts_ArchotechEraser"]/description</xpath>
+				<value>
+					<description>One-use artifact that utilises a mass effect core to erase everything in a radius of 10 from existence. Needs to be manually triggered.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "VFEI_Artifacts_ArchotechTeleporter"]/label</xpath>
+				<value>
+					<label>prothean teleporter</label>
+				</value>
+			</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

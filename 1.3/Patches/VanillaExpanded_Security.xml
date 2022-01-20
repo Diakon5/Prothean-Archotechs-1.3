@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Furniture Expanded - Security</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "VFES_ShieldGenerator_Archotech"]/label</xpath>
+				<value>
+					<label>prothean shield generator</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "VFES_ShieldGenerator_Archotech"]/description</xpath>
+				<value>
+					<description>A self-powered prothean device that projects a very potent energy field around itself to protect everything inside. Works through walls.\n\nShield generators only activate when there's an active threat present such as a raid or an artillery bombardment. Otherwise, they stay in an inactive state and consume much less power.\n\nCan set surrounding area on fire if enough damage is absorbed in a short period of time.</description>
+				</value>
+			</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
