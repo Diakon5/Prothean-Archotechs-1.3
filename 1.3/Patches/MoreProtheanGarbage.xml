@@ -50,6 +50,24 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "MAG_ArchotechWall"]/label</xpath>
+				<value>
+					<label>prothean wall</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "MAG_ArchotechDoor"]/label</xpath>
+				<value>
+					<label>prothean door</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "MAG_PrimitiveArchotechWall"]/label</xpath>
+				<value>
+					<label>primitive prothean wall</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ArchoStandardTemperatureThing"]/label</xpath>
 				<value>
 					<label>Prothean Heater</label>
@@ -83,6 +101,12 @@
 				<xpath>/Defs/ThingDef[defName = "RaidorJoinorTameorManhunter"]/label</xpath>
 				<value>
 					<label>Prothean Psychic Manipulator</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "MAG_ArchotechTorchLamp"]/label</xpath>
+				<value>
+					<label>primitive prothean light</label>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -530,6 +554,19 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "MAG_ArchotechWall"]/description</xpath>
+				<value>
+					<description>A wall created by a prothean. Indestructible.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "MAG_PrimitiveArchotechWallArchotechWall"]/description</xpath>
+				<value>
+					<description>An impassable wall. Capable of holding up a roof. Inserting a prothean fragment into it made it slightly better than a normal wall.</description>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ArchoStandardTemperatureThing"]/description</xpath>
 				<value>
 					<description>A heating device created by a prothean. It slowly and passively heats up the area.</description>
@@ -563,6 +600,12 @@
 				<xpath>/Defs/ThingDef[defName = "RaidorJoinorTameorManhunter"]/description</xpath>
 				<value>
 					<description>a prothean device capable of taming a random nearby animal or summoning a wanderer to join your colony, there's a small chance of summoning a raid or a manhunter pack instead.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "MAG_ArchotechTorchLamp"]/description</xpath>
+				<value>
+					<description>A prothean fragment on a stick, that's it. A decent light source if your colonists are too feeble-minded to use the fragments for anything else.</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -905,6 +948,30 @@
 				<xpath>/Defs/TerrainDef[defName = "FloorArchotechOwO"]/description</xpath>
 				<value>
 					<description>a prothean floor tile. Very clean and sturdy. Now with 50% less eye-melting patterns.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "MAG_ArchotechWall"]/graphicData/color</xpath>
+				<value>
+					<color>(65,79,86)</color>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "MAG_ArchotechDoor"]/graphicData/color</xpath>
+				<value>
+					<color>(65,79,86)</color>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "MAG_ArchotechWall"]/uiIconColor</xpath>
+				<value>
+					<uiIconColor>(65,79,86)</uiIconColor>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "MAG_ArchotechDoor"]/uiIconColor</xpath>
+				<value>
+					<uiIconColor>(65,79,86)</uiIconColor>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
