@@ -24,7 +24,7 @@
 		<li Class="PatchOperationReplace">
 			<xpath>/Defs/ThingDef[defName = "VanometricPowerCell"]/description</xpath>
 			<value>
-				<description>Generates free energy, forever, without using fuel. This technology is developed by archotechs, and is beyond even most glitterworld societies. While nobody knows exactly how it works, scholars believe it somehow extracts energy directly from fluctuations in mass effect fields.</description>
+				<description>Generates free energy, forever, without using fuel. This technology is developed by protheans, and is beyond even most advanced societies. While nobody knows exactly how it works, scholars believe it somehow extracts energy directly from fluctuations in mass effect fields.</description>
 			</value>
 		</li>
 		<li Class="PatchOperationReplace">

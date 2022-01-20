@@ -308,7 +308,7 @@
 					<label>prothean resurrector</label>
 				</value>
 			</li>
-			<li Class="PatchOperationReplace">
+<!--			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "RecruitArtifact"]/label</xpath>
 				<value>
 					<label>psychic recruiter</label>
@@ -355,7 +355,7 @@
 				<value>
 					<label>psychic healer lance</label>
 				</value>
-			</li>
+			</li>-->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ArchotechishMedicine"]/label</xpath>
 				<value>
@@ -368,12 +368,12 @@
 					<label>Prothean</label>
 				</value>
 			</li>
-			<li Class="PatchOperationReplace">
+			<!--<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "SexyResourceDispenser"]/label</xpath>
 				<value>
 					<label>Resource Assembler</label>
 				</value>
-			</li>
+			</li>-->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ArchoPartAssembler"]/label</xpath>
 				<value>
@@ -386,12 +386,12 @@
 					<label>prothean bench</label>
 				</value>
 			</li>
-			<li Class="PatchOperationReplace">
+			<!--<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ArchoPodGenerator"]/label</xpath>
 				<value>
 					<label>Pod summoner</label>
 				</value>
-			</li>
+			</li>-->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ArchoDecipherAI"]/label</xpath>
 				<value>
@@ -399,9 +399,27 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "MAG_ArchoReproductorMini"]/label</xpath>
+				<value>
+					<label>Miniature Prothean Replicator</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ArchoReproductor"]/label</xpath>
 				<value>
-					<label>Prothean Replicator</label>
+					<label>Small Prothean Replicator</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "MAG_ArchoReproductorMedium"]/label</xpath>
+				<value>
+					<label>Small Prothean Replicator</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "MAG_ArchoReproductorLarge"]/label</xpath>
+				<value>
+					<label>Small Prothean Replicator</label>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -410,19 +428,19 @@
 					<label>Prothean nourisher</label>
 				</value>
 			</li>
-			<li Class="PatchOperationReplace">
+<!--			<li Class="PatchOperationReplace">
 				<xpath>/Defs/RecipeDef[defName = "SalvageCorpseMechanoidArchotech"]/label</xpath>
 				<value>
 					<label>salvage mechanoid</label>
 				</value>
-			</li>
+			</li>-->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/RecipeDef[defName = "CookMealArchoadvanced"]/label</xpath>
 				<value>
 					<label>cook prothean meal</label>
 				</value>
 			</li>
-			<li Class="PatchOperationReplace">
+<!--			<li Class="PatchOperationReplace">
 				<xpath>/Defs/RecipeDef[defName = "MakeArchotechAnimalPulser"]/label</xpath>
 				<value>
 					<label>make psychic animal pulser</label>
@@ -451,11 +469,11 @@
 				<value>
 					<label>make psychic emanator</label>
 				</value>
-			</li>
+			</li>-->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/RecipeDef[defName = "MakeArchotechVanometricCellBasic"]/label</xpath>
 				<value>
-					<label>make vanometric power cell</label>
+					<label>make prothean power cell</label>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -464,7 +482,7 @@
 					<label>make prothean resurrector</label>
 				</value>
 			</li>
-			<li Class="PatchOperationReplace">
+<!--			<li Class="PatchOperationReplace">
 				<xpath>/Defs/RecipeDef[defName = "MakeArchotechRecruiter"]/label</xpath>
 				<value>
 					<label>make psychic recruiter</label>
@@ -511,11 +529,41 @@
 				<value>
 					<label>make psychic healer lance</label>
 				</value>
-			</li>
+			</li>-->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/RecipeDef[defName = "MakeArchotechMedicineowo"]/label</xpath>
 				<value>
 					<label>make prothean medicine</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName = "MakeArchotechyEye"]/label</xpath>
+				<value>
+					<label>make prothean eye</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName = "MakeArchotechyArm"]/label</xpath>
+				<value>
+					<label>make prothean arm</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName = "MakeArchotechyLeg"]/label</xpath>
+				<value>
+					<label>make prothean leg</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName = "MAG_FragmentToMass"]/label</xpath>
+				<value>
+					<label>convert prothean fragments</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName = "MAG_MassToFragment"]/label</xpath>
+				<value>
+					<label>convert prothean mass</label>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -548,6 +596,9 @@
 					<label>simple prothean floor</label>
 				</value>
 			</li>
+			
+	<!--Descriptions-->	
+			
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ArchotechWallRepair"]/description</xpath>
 				<value>
@@ -813,7 +864,7 @@
 					<description>A strange prothean device. It can be used to revive any pawn without any consequences, even works on rotting corpses. Just...watch out for any time anomalies.</description>
 				</value>
 			</li>
-			<li Class="PatchOperationReplace">
+<!--			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "RecruitArtifact"]/description</xpath>
 				<value>
 					<description>A one-use artifact. It modifies the target's memories, making them think they were always on your side. It works at long distances</description>
@@ -860,11 +911,11 @@
 				<value>
 					<description>A one-use artifact. It instantly heals the target's injuries, won't heal permament wounds or restore missing body parts. It works at long distances</description>
 				</value>
-			</li>
+			</li>-->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ArchotechishMedicine"]/description</xpath>
 				<value>
-					<description>A healing kit created by a prothean.</description>
+					<description>A healing kit created by a prothean. Can alternatively be used like a healer mech serum.</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -873,16 +924,16 @@
 					<description>All prothean buildings should show up here once the research requirements are met.</description>
 				</value>
 			</li>
-			<li Class="PatchOperationReplace">
+			<!--<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "SexyResourceDispenser"]/description</xpath>
 				<value>
 					<description>Produces medium amounts of each basic resource, the amount varies for each one. It requires no power or fuel.</description>
 				</value>
-			</li>
+			</li>-->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ArchoPartAssembler"]/description</xpath>
 				<value>
-					<description>Produces one of each archotech body parts every 10 days. It requires no power of fuel to function.</description>
+					<description>Produces one of each prothean body parts every 10 days. It requires no power of fuel to function.</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -900,25 +951,73 @@
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ArchoDecipherAI"]/description</xpath>
 				<value>
-					<description>A device designed to make it easier for an AI to help you uncover the secrets of the protheans (or at least some of them). It will generate research points to a random project every day, but due to the fact protheans don't like sharing without being asked first</description>
+					<description>A device designed to make it easier for an AI to help you uncover the secrets of the protheans (or at least some of them). It will generate research points to a random project every day, but due to the fact protheans don't like sharing knowledge without being asked first, the effects may vary. On rare occasions it might also move progress backwards (but keep in mind that it's impossible for it to "unresearch" a project). Deconstruction or destruction will cause it to activate a strong psychic droner.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "MAG_ArchoReproductorMini"]/description</xpath>
+				<value>
+					<description>A prothean device capable of creating prothean fragments and prothean mass. Possibly a piece of a self-building device, but with no instructions to follow it leaves the produced materials on the ground.\n\nCan be placed on tables</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ArchoReproductor"]/description</xpath>
 				<value>
-					<description>a prothean device capable of creating prothean fragments.</description>
+					<description>A prothean device capable of creating prothean fragments and prothean mass. Possibly a piece of a self-building device, but with no instructions to follow it leaves the produced materials on the ground.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "MAG_ArchoReproductorMedium"]/description</xpath>
+				<value>
+					<description>A prothean device capable of creating prothean fragments and prothean mass. Possibly a piece of a self-building device, but with no instructions to follow it leaves the produced materials on the ground.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "MAG_ArchoReproductorLarge"]/description</xpath>
+				<value>
+					<description>A prothean device capable of creating prothean fragments and prothean mass. Possibly a piece of a self-building device, but with no instructions to follow it leaves the produced materials on the ground.</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ArchoCookingAssistant"]/description</xpath>
 				<value>
-					<description>a prothean device that seems to assist in cooking. It also generates strange, yet tasty and nutricious "food" on regular intervals.</description>
+					<description>A prothean device that seems to assist in cooking. It also generates strange, yet tasty and nutricious "food" on regular intervals.</description>
+				</value>
+			</li>MAG_AutoResearcher
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "MAG_AutoResearcher"]/description</xpath>
+				<value>
+					<description>A strange prothean device that adds around 100 points to a random research project every 24 hours, more or less.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName = "SalvageCorpseMechanoidArchotech"]/description</xpath>
+				<value>
+					<description>Disassemble a dead mechanoid for its basic components and prothean fragments. This procedure requires a good amount of precision, therefore it requires more time and skill to complete than shredding.</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/RecipeDef[defName = "CookMealArchoadvanced"]/description</xpath>
 				<value>
 					<description>Cook a prothean meal.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName = "MaG_MakeArchotechPlant"]/description</xpath>
+				<value>
+					<description>Make prothean plant matter by compressing vegetables or fruits. Over half of the ingredients are "wasted".</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName = "MaG_MakeArchotechMeat"]/description</xpath>
+				<value>
+					<description>Make prothean plant matter by compressing meat. Over half of the ingredients are "wasted".</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName = "MaG_MakeArchotecAnimalProduct"]/description</xpath>
+				<value>
+					<description>Make prothean plant matter by compressing different animal products. Over half of the ingredients are "wasted".</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -934,9 +1033,39 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName = "MakeArchotechyEye"]/description</xpath>
+				<value>
+					<description>Makes prothean eye.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName = "MakeArchotechyArm"]/description</xpath>
+				<value>
+					<description>Makes prothean arm.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName = "MakeArchotechyLeg"]/description</xpath>
+				<value>
+					<description>Makes prothean leg.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
 				<xpath>/Defs/RecipeDef[defName = "MakeArchotechMedicineowo"]/description</xpath>
 				<value>
 					<description>Makes prothean medicine.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName = "MAG_FragmentToMass"]/description</xpath>
+				<value>
+					<description>Converts prothean fragments into prothean mass, this is a very inefficient process.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName = "MAG_MassToFragment"]/description</xpath>
+				<value>
+					<description>Converts prothean mass into prothean fragments, this is a very inefficient process.</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -963,6 +1092,83 @@
 					<description>a prothean floor tile. Very clean and sturdy. Now with 50% less eye-melting patterns.</description>
 				</value>
 			</li>
+			
+	<!--Jobstrings-->			
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName = "CookMealArchoadvanced"]/jobstring</xpath>
+				<value>
+					<jobString>Cooking prothean meal.</jobString>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName = "MaG_MakeArchotechPlant"]/jobstring</xpath>
+				<value>
+					<jobString>Making prothean plant matter.</jobString>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName = "MaG_MakeArchotechMeat"]/jobstring</xpath>
+				<value>
+					<jobString>Making prothean meat.</jobString>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName = "MaG_MakeArchotecAnimalProduct"]/jobstring</xpath>
+				<value>
+					<jobString>Making prothean animal product.</jobString>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName = "MakeArchotechVanometricCellBasic"]/jobstring</xpath>
+				<value>
+					<jobString>Making prothean power cell</jobString>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName = "MakeArchotechResurrector"]/jobstring</xpath>
+				<value>
+					<jobString>Making prothean resurrector.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName = "MakeArchotechyEye"]/jobstring</xpath>
+				<value>
+					<jobString>Making prothean eye.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName = "MakeArchotechyArm"]/jobstring</xpath>
+				<value>
+					<jobString>Making prothean arm.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName = "MakeArchotechyLeg"]/jobstring</xpath>
+				<value>
+					<jobString>Making prothean leg.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName = "MakeArchotechMedicineowo"]/jobstring</xpath>
+				<value>
+					<jobString>Making prothean medicine.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName = "MAG_FragmentToMass"]/jobstring</xpath>
+				<value>
+					<jobString>Making prothean mass.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName = "MAG_MassToFragment"]/jobstring</xpath>
+				<value>
+					<jobString>Making prothean fragments.</description>
+				</value>
+			</li>
+	<!--Misc-->				
+			
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "MAG_ArchotechWall"]/graphicData/color</xpath>
 				<value>
