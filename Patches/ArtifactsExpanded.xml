@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Artifacts Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "Apparel_ArchotechSacrificerBelt"]/label</xpath>
+				<value>
+					<label>prothean sacrificer belt</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "NeurotrainerArchotech"]/label</xpath>
+				<value>
+					<label>prothean neurotrainer</label>
+				</value>
+			</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

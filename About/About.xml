@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Rim-Effect: Prothean Archotechs</name>
+	<author>Oracle of Thessia</author>
+	<supportedVersions><li>1.2</li></supportedVersions>
+	<packageId>rimeffect.protheanarchotech</packageId>
+	<loadAfter>
+		<li>mrkociak.morearchotechstuffandthingsreupload</li>
+		<li>kentington.saveourship2</li>
+		<li>oskarpotocki.vfe.vikings</li>
+		<li>oskarpotocki.vfe.insectoid</li>
+		<li>vanillaexpanded.vfesecurity</li>
+		<li>vanillaexpanded.vfeart</li>
+		<li>vanillaexpanded.vfepower</li>
+		<li>mlie.halorimworldpsychicpulsearmory</li>
+		<li>Carnagion.ArtifactsExpanded</li>
+		<li>sgc.moreutilitypacks</li>
+	</loadAfter>
+	<description>Replaces many archotech items with prothean-themed retextures, and renames them</description>
+</ModMetaData>

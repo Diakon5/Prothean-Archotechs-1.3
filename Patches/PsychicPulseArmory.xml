@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>HALO: Rimworld Psychic Pulse Armory (Continued)</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "HRPPA_PsychicPulseBlade"]/label</xpath>
+				<value>
+					<label>prothean psychic blade</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "HRPPA_PsychicPulseBlade"]/description</xpath>
+				<value>
+					<description>An ancient pulse blade of prothean design, driving the target insane and disorients it.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "HRPPA_PsychicPulseCannon"]/label</xpath>
+				<value>
+					<label>prothean psychic cannon</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "HRPPA_PsychicPulseCannon"]/description</xpath>
+				<value>
+					<description>An ancient handgun of prothean design, firing a psychic pulse that disorients and downs the target or drive them insane.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "HRPPA_PsychicPulseRepeater"]/label</xpath>
+				<value>
+					<label>prothean psychic repeater</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "HRPPA_PsychicPulseRepeater"]/description</xpath>
+				<value>
+					<description>An ancient rifle of prothean design, firing multiple psychic pulses that disorients and downs the target or drive them insane.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "HRPPA_PsychicPulseSpinner"]/label</xpath>
+				<value>
+					<label>prothean psychic spinner</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "HRPPA_PsychicPulseSpinner"]/description</xpath>
+				<value>
+					<description>An ancient rapid fire rifle of prothean design, firing multiple psychic pulses in a short time that disorients and downs the target or drive them insane.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "HRPPA_PsychicPulseScatter"]/label</xpath>
+				<value>
+					<label>prothean psychic scattergun</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "HRPPA_PsychicPulseScatter"]/description</xpath>
+				<value>
+					<description>An ancient shotgun of prothean design, firing multiple, small psychic pulses in one shot that disorients and downs the target or drive them insane.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "HRPPA_PsychicPulseReacher"]/label</xpath>
+				<value>
+					<label>prothean psychic reacher</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "HRPPA_PsychicPulseReacher"]/description</xpath>
+				<value>
+					<description>An ancient sniper of prothean design, firing a fast psychic pulse that disorients and downs the target or drive them insane.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "HRPPA_PsychicPulseLancer"]/label</xpath>
+				<value>
+					<label>prothean psychic lancer</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "HRPPA_PsychicPulseLancer"]/description</xpath>
+				<value>
+					<description>An ancient lancer of prothean design, firing a fast psychic pulse lance that disorients and downs the target or drive them insane.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "HRPPA_PsychicPulseGrenade"]/label</xpath>
+				<value>
+					<label>prothean psychic grenade</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "HRPPA_PsychicPulseGrenade"]/description</xpath>
+				<value>
+					<description>An ancient grenade of prothean design, firing a fast psychic pulse lance that disorients and downs the target or drive them insane.</description>
+				</value>
+			</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

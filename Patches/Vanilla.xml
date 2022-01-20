@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+   <Operation Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "PsychicEmanator"]/label</xpath>
+			<value>
+				<label>prothean psychic emanator</label>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "PsychicEmanator"]/description</xpath>
+			<value>
+				<description>An ancient prothean device that projects a soothing psychic field around itself. This improves the mood of anyone nearby. Works through walls.</description>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "VanometricPowerCell"]/label</xpath>
+			<value>
+				<label>prothean power cell</label>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "VanometricPowerCell"]/description</xpath>
+			<value>
+				<description>Generates free energy, forever, without using fuel. This technology is developed by archotechs, and is beyond even most glitterworld societies. While nobody knows exactly how it works, scholars believe it somehow extracts energy directly from fluctuations in mass effect fields.</description>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "BodyPartArchotechBase"]/texPath</xpath>
+			<value>
+				<texPath>Things/Item/Artifact/ArchoBionic</texPath>
+			</value>
+		</li>
+		
+		
+      
+      </operations>
+   </Operation>
+</Patch>

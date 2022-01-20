@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Furniture Expanded - Power</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "VFE_SmallVanometricPowerCell"]/label</xpath>
+				<value>
+					<label>small prothean power cell</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "VFE_SmallVanometricPowerCell"]/description</xpath>
+				<value>
+					<description>Generates a very small amount of free energy, forever, without using fuel. This technology is developed by protheans, and is beyond even most glitterworld societies. While nobody knows exactly how it works, scholars believe it somehow extracts energy directly from fluctuations in mass effect fields.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "VFE_LargeVanometricPowerCell"]/label</xpath>
+				<value>
+					<label>large prothean power cell</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "VFE_LargeVanometricPowerCell"]/description</xpath>
+				<value>
+					<description>Generates a large amount of free energy, forever, without using fuel. This technology is developed by protheans, and is beyond even most glitterworld societies. While nobody knows exactly how it works, scholars believe it somehow extracts energy directly from fluctuations in mass effect fields.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "VPE_ArchotechViolenceGenerator"]/label</xpath>
+				<value>
+					<label>prothean violence generator</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "VPE_ArchotechViolenceGenerator"]/description</xpath>
+				<value>
+					<description>This device taps into psychic energy leaving the bodies of surrounding humanoids, changing it directly into usable energy. This technology is developed by protheans, and is beyond even most glitterworld societies.</description>
+				</value>
+			</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
