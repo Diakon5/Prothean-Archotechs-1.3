@@ -618,7 +618,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName = "MAG_PrimitiveArchotechWallArchotechWall"]/description</xpath>
+				<xpath>/Defs/ThingDef[defName = "MAG_PrimitiveArchotechWall"]/description</xpath>
 				<value>
 					<description>An impassable wall. Capable of holding up a roof. Inserting a prothean fragment into it made it slightly better than a normal wall.</description>
 				</value>
@@ -983,7 +983,7 @@
 				<value>
 					<description>A prothean device that seems to assist in cooking. It also generates strange, yet tasty and nutricious "food" on regular intervals.</description>
 				</value>
-			</li>MAG_AutoResearcher
+			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "MAG_AutoResearcher"]/description</xpath>
 				<value>
@@ -1128,43 +1128,43 @@
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/RecipeDef[defName = "MakeArchotechResurrector"]/jobstring</xpath>
 				<value>
-					<jobString>Making prothean resurrector.</description>
+					<jobString>Making prothean resurrector.</jobString>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/RecipeDef[defName = "MakeArchotechyEye"]/jobstring</xpath>
 				<value>
-					<jobString>Making prothean eye.</description>
+					<jobString>Making prothean eye.</jobString>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/RecipeDef[defName = "MakeArchotechyArm"]/jobstring</xpath>
 				<value>
-					<jobString>Making prothean arm.</description>
+					<jobString>Making prothean arm.</jobString>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/RecipeDef[defName = "MakeArchotechyLeg"]/jobstring</xpath>
 				<value>
-					<jobString>Making prothean leg.</description>
+					<jobString>Making prothean leg.</jobString>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/RecipeDef[defName = "MakeArchotechMedicineowo"]/jobstring</xpath>
 				<value>
-					<jobString>Making prothean medicine.</description>
+					<jobString>Making prothean medicine.</jobString>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/RecipeDef[defName = "MAG_FragmentToMass"]/jobstring</xpath>
 				<value>
-					<jobString>Making prothean mass.</description>
+					<jobString>Making prothean mass.</jobString>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/RecipeDef[defName = "MAG_MassToFragment"]/jobstring</xpath>
 				<value>
-					<jobString>Making prothean fragments.</description>
+					<jobString>Making prothean fragments.</jobString>
 				</value>
 			</li>
 	<!--Misc-->				
