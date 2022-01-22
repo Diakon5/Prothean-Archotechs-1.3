@@ -132,8 +132,7 @@
 				<value>
 					<label>prothean animal product</label>
 				</value>
-			</li>
-			
+			</li>		
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ArchotechHermesBeacon"]/label</xpath>
 				<value>
@@ -413,13 +412,13 @@
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "MAG_ArchoReproductorMedium"]/label</xpath>
 				<value>
-					<label>Small Prothean Replicator</label>
+					<label>Medium Prothean Replicator</label>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "MAG_ArchoReproductorLarge"]/label</xpath>
 				<value>
-					<label>Small Prothean Replicator</label>
+					<label>Large Prothean Replicator</label>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -622,8 +621,7 @@
 				<value>
 					<description>An impassable wall. Capable of holding up a roof. Inserting a prothean fragment into it made it slightly better than a normal wall.</description>
 				</value>
-			</li>
-			
+			</li>			
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ArchoStandardTemperatureThing"]/description</xpath>
 				<value>
