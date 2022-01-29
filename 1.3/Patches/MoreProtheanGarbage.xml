@@ -5,7 +5,7 @@
 			<li>More Archotech Garbage Reupload</li>
 		</mods>
 		<match Class="PatchOperationSequence">
-			<success>Always</success>
+			<!--<success>Always</success>-->
 			<operations>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ResearchTabDef[defName = "MRA"]/label</xpath>
@@ -132,7 +132,13 @@
 				<value>
 					<label>prothean animal product</label>
 				</value>
-			</li>		
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "MAG_Archotech_Kibble"]/label</xpath>
+				<value>
+					<label>prothean kibble</label>
+				</value>
+			</li>			
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ArchotechHermesBeacon"]/label</xpath>
 				<value>
@@ -212,9 +218,63 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/HediffDef[defName = "HermesBeaconSpeed"]/label</xpath>
+				<xpath>/Defs/ThingDef[defName = "ArchotechSlownessBeacon"]/label</xpath>
 				<value>
-					<label>Speed boost</label>
+					<label>Prothean Slowness Beacon</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "ArchotechFragilityBeacon"]/label</xpath>
+				<value>
+					<label>Prothean Fragility Beacon</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "ArchotechBlindnessBeacon"]/label</xpath>
+				<value>
+					<label>Prothean Blindness Beacon</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "ArchotechPsychicAmpBeacon"]/label</xpath>
+				<value>
+					<label>Prothean Psychic Amplifier Beacon</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "ArchotechPsychicDeafnessBeacon"]/label</xpath>
+				<value>
+					<label>Prothean Psychic Deafness Beacon</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "ArchotechHaulingBeacon"]/label</xpath>
+				<value>
+					<label>Prothean Strength Beacon</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "ArchotechMeatLeatherYieldBeacon"]/label</xpath>
+				<value>
+					<label>Prothean Growth Beacon</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "ArchotechPainIncreaseBeacon"]/label</xpath>
+				<value>
+					<label>Prothean Pain Beacon</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "ArchotechPainDecreaseBeacon"]/label</xpath>
+				<value>
+					<label>Prothean Pain suppression Beacon</label>
+				</value>
+			</li>
+<!--			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName = "HermesBeaconSpeed"]/labelNoun</xpath>
+				<value>
+					<labelNoun>This pawn can run faster as long as it's in Prothean Hermes Beacon's range.</labelNoun>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -282,11 +342,17 @@
 				<value>
 					<label>Construction Boost</label>
 				</value>
-			</li>
+			</li>-->
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/HediffDef[defName = "ArchoMealBoost"]/label</xpath>
 				<value>
 					<label>Prothean Meal Boost</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName = "ArchoMealBoost"]/labelNoun</xpath>
+				<value>
+					<labelNoun>This pawn has received a boost from eating a prothean meal.</labelNoun>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -299,6 +365,24 @@
 				<xpath>/Defs/HediffDef[defName = "ArchoStasis"]/label</xpath>
 				<value>
 					<label>Prothean Stasis</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName = "SlownessBeaconSpeed"]/labelNoun</xpath>
+				<value>
+					<labelNoun>This pawn's moving speed is hindered as long as it's in Prothean Slowness Beacon's range.</labelNoun>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName = "FragilityBeaconBoost"]/labelNoun</xpath>
+				<value>
+					<labelNoun>This pawn's defense is hindered as long as it's in Prothean Fragility Beacon's range.</labelNoun>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName = "BlindnessBeaconSightReduction"]/labelNoun</xpath>
+				<value>
+					<labelNoun>This pawn's sight is hindered as long as it's in Prothean Blindness Beacon's range.</labelNoun>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -580,7 +664,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "archotechmatteraddingsomecraptoavoidproblems"]/label</xpath>
 				<value>
-					<label>prothean mass</label>
+					<label>Prothean mass</label>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -593,6 +677,54 @@
 				<xpath>/Defs/TerrainDef[defName = "FloorArchotechOwO"]/label</xpath>
 				<value>
 					<label>simple prothean floor</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/TerrainDef[defName = "MAG_PrimitiveArchotechSoil"]/label</xpath>
+				<value>
+					<label>primitive prothean soil</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/TerrainDef[defName = "FloorArchotechUwU_Bridge"]/label</xpath>
+				<value>
+					<label>prothean bridge</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/TerrainDef[defName = "FloorArchotechOwO_Bridge"]/label</xpath>
+				<value>
+					<label>simple prothean bridge</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThoughtDef[defName = "AteArchoMeat"]/stages/li/label</xpath>
+				<value>
+					<label>ate prothean meat</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThoughtDef[defName = "AteArchoPlant"]/stages/li/label</xpath>
+				<value>
+					<label>ate prothean plant matter</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThoughtDef[defName = "AteArchoHoney"]/stages/li/label</xpath>
+				<value>
+					<label>ate prothean honey</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThoughtDef[defName = "AteArchoAnimalStuff"]/stages/li/label</xpath>
+				<value>
+					<label>ate prothean animal product</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThoughtDef[defName = "AteArchoMealSimple"]/stages/li/label</xpath>
+				<value>
+					<label>ate prothean meal</label>
 				</value>
 			</li>
 			
@@ -689,6 +821,12 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "MAG_Archotech_Kibble"]/description</xpath>
+				<value>
+					<description>Animal feed made by an archotech device. While humanlikes are perfectly capable of eating it with no consequences, it is very inefficient.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ArchotechHermesBeacon"]/description</xpath>
 				<value>
 					<description>This strange prothean device increases movement speed of anyone nearby.</description>
@@ -767,6 +905,60 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "ArchotechSlownessBeacon"]/description</xpath>
+				<value>
+					<description>This strange prothean device decreases movement speed of any nearby enemy.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "ArchotechFragilityBeacon"]/description</xpath>
+				<value>
+					<description>This strange prothean device decreases defense of any nearby enemy.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "ArchotechBlindnessBeacon"]/description</xpath>
+				<value>
+					<description>This strange prothean device decreases sight of any nearby enemy.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "ArchotechPsychicAmpBeacon"]/description</xpath>
+				<value>
+					<description>This strange prothean device increases psychic sensitivity of anyone nearby.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "ArchotechPsychicDeafnessBeacon"]/description</xpath>
+				<value>
+					<description>This strange prothean device decreases psychic sensitivity of anyone nearby.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "ArchotechHaulingBeacon"]/description</xpath>
+				<value>
+					<description>This strange prothean device increases carrying capacity of anyone nearby.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "ArchotechMeatLeatherYieldBeacon"]/description</xpath>
+				<value>
+					<description>This strange prothean device increases increases meat and leather yield of any creature nearby.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "ArchotechPainIncreaseBeacon"]/description</xpath>
+				<value>
+					<description>This strange prothean device decreases pain tolerance of any nearby enemy.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "ArchotechPainDecreaseBeacon"]/description</xpath>
+				<value>
+					<description>This strange prothean device increases pain tolerance of any nearby enemy.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
 				<xpath>/Defs/HediffDef[defName = "HermesBeaconSpeed"]/description</xpath>
 				<value>
 					<description>A speed boost added by the prothean hermes beacon.</description>
@@ -787,7 +979,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/HediffDef[defName = "HealingBeaconBoost"]/description</xpath>
 				<value>
-					<description>A wound regeneration speed boost added by the prothean protection beacon.</description>
+					<description>A wound regeneration speed boost added by the prothean health beacon.</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -854,6 +1046,60 @@
 				<xpath>/Defs/HediffDef[defName = "ArchoStasis"]/description</xpath>
 				<value>
 					<description>This pawn is currently in a stasis, they will not bleed or take any damage</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName = "SlownessBeaconSpeed"]/description</xpath>
+				<value>
+					<description>A speed reduction added by the prothean slowness beacon.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName = "FragilityBeaconBoost"]/description</xpath>
+				<value>
+					<description>A defense reduction added by the prothean fragility beacon.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName = "BlindnessBeaconSightReduction"]/description</xpath>
+				<value>
+					<description>A sight reduction added by the prothean blindness beacon.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName = "PsychicAmpBeaconBoost"]/description</xpath>
+				<value>
+					<description>A psychic sensitivity boost added by a prothean beacon.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName = "PsychicDeafnessBeaconBoost"]/description</xpath>
+				<value>
+					<description>A psychic sensitivity reduction added by a prothean beacon.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName = "CarryCapacityBeaconBoost"]/description</xpath>
+				<value>
+					<description>A carry capacity boost added by an prothean beacon.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName = "ButcherYieldBeaconBoost"]/description</xpath>
+				<value>
+					<description>A butchering yield boost added by a prothean beacon.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName = "PainToleranceBeaconReduction"]/description</xpath>
+				<value>
+					<description>A pain tolerance reduction added by a prothean beacon.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName = "PainsuppresionBeaconBoost"]/description</xpath>
+				<value>
+					<description>A pain tolerance boost added by a prothean beacon.</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -1069,7 +1315,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ArchotechScrap"]/description</xpath>
 				<value>
-					<description>prothean fragment</description>
+					<description>A prothean fragment. A strange glowing piece of material, not usable in many things in its current form. It may be possible to manipulate and form it into useful items with enough research.</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -1081,86 +1327,102 @@
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/TerrainDef[defName = "FloorArchotechUwU"]/description</xpath>
 				<value>
-					<description>a prothean floor tile. Very clean and sturdy.</description>
+					<description>A prothean floor tile. Very clean and sturdy.</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/TerrainDef[defName = "FloorArchotechOwO"]/description</xpath>
 				<value>
-					<description>a prothean floor tile. Very clean and sturdy. Now with 50% less eye-melting patterns.</description>
+					<description>A prothean floor tile. Very clean and sturdy. Now with 50% less eye-melting patterns.</description>
 				</value>
 			</li>
-			
-	<!--Jobstrings-->			
-			
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/RecipeDef[defName = "CookMealArchoadvanced"]/jobstring</xpath>
+				<xpath>/Defs/TerrainDef[defName = "MAG_PrimitiveArchotechSoil"]/description</xpath>
+				<value>
+					<description>It seems that burying prothean fragments can turn any terrain into decently fertile soil, even if said terrain is literally a pile of rocks. This was discovered when a salarian researcher tried to hide prothean fragments he once found by burying them in sand from his superiors, only to be found out when the patch turned fertile.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/TerrainDef[defName = "FloorArchotechUwU_Bridge"]/description</xpath>
+				<value>
+					<description>A prothean floor tile. Very clean and sturdy. Despite its weight it seems to effortlessly float on water.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/TerrainDef[defName = "FloorArchotechOwO_Bridge"]/description</xpath>
+				<value>
+					<description>A prothean floor tile. Very clean and sturdy. Despite its weight it seems to effortlessly float on water. Now with 50% less eye-melting patterns.</description>
+				</value>
+			</li>
+	<!--Jobstrings-->			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName = "CookMealArchoadvanced"]/jobString</xpath>
 				<value>
 					<jobString>Cooking prothean meal.</jobString>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/RecipeDef[defName = "MaG_MakeArchotechPlant"]/jobstring</xpath>
+				<xpath>/Defs/RecipeDef[defName = "MaG_MakeArchotechPlant"]/jobString</xpath>
 				<value>
 					<jobString>Making prothean plant matter.</jobString>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/RecipeDef[defName = "MaG_MakeArchotechMeat"]/jobstring</xpath>
+				<xpath>/Defs/RecipeDef[defName = "MaG_MakeArchotechMeat"]/jobString</xpath>
 				<value>
 					<jobString>Making prothean meat.</jobString>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/RecipeDef[defName = "MaG_MakeArchotecAnimalProduct"]/jobstring</xpath>
+				<xpath>/Defs/RecipeDef[defName = "MaG_MakeArchotecAnimalProduct"]/jobString</xpath>
 				<value>
 					<jobString>Making prothean animal product.</jobString>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/RecipeDef[defName = "MakeArchotechVanometricCellBasic"]/jobstring</xpath>
+				<xpath>/Defs/RecipeDef[defName = "MakeArchotechVanometricCellBasic"]/jobString</xpath>
 				<value>
 					<jobString>Making prothean power cell</jobString>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/RecipeDef[defName = "MakeArchotechResurrector"]/jobstring</xpath>
+				<xpath>/Defs/RecipeDef[defName = "MakeArchotechResurrector"]/jobString</xpath>
 				<value>
 					<jobString>Making prothean resurrector.</jobString>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/RecipeDef[defName = "MakeArchotechyEye"]/jobstring</xpath>
+				<xpath>/Defs/RecipeDef[defName = "MakeArchotechyEye"]/jobString</xpath>
 				<value>
 					<jobString>Making prothean eye.</jobString>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/RecipeDef[defName = "MakeArchotechyArm"]/jobstring</xpath>
+				<xpath>/Defs/RecipeDef[defName = "MakeArchotechyArm"]/jobString</xpath>
 				<value>
 					<jobString>Making prothean arm.</jobString>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/RecipeDef[defName = "MakeArchotechyLeg"]/jobstring</xpath>
+				<xpath>/Defs/RecipeDef[defName = "MakeArchotechyLeg"]/jobString</xpath>
 				<value>
 					<jobString>Making prothean leg.</jobString>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/RecipeDef[defName = "MakeArchotechMedicineowo"]/jobstring</xpath>
+				<xpath>/Defs/RecipeDef[defName = "MakeArchotechMedicineowo"]/jobString</xpath>
 				<value>
 					<jobString>Making prothean medicine.</jobString>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/RecipeDef[defName = "MAG_FragmentToMass"]/jobstring</xpath>
+				<xpath>/Defs/RecipeDef[defName = "MAG_FragmentToMass"]/jobString</xpath>
 				<value>
 					<jobString>Making prothean mass.</jobString>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/RecipeDef[defName = "MAG_MassToFragment"]/jobstring</xpath>
+				<xpath>/Defs/RecipeDef[defName = "MAG_MassToFragment"]/jobString</xpath>
 				<value>
 					<jobString>Making prothean fragments.</jobString>
 				</value>
@@ -1170,31 +1432,43 @@
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "MAG_ArchotechWall"]/graphicData/color</xpath>
 				<value>
-					<color>(65,79,86)</color>
+					<color>(76,91,99)</color>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "MAG_ArchotechDoor"]/graphicData/color</xpath>
 				<value>
-					<color>(65,79,86)</color>
+					<color>(76,91,99)</color>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "MAG_ArchotechWall"]/uiIconColor</xpath>
 				<value>
-					<uiIconColor>(65,79,86)</uiIconColor>
+					<uiIconColor>(76,91,99)</uiIconColor>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "MAG_ArchotechDoor"]/uiIconColor</xpath>
 				<value>
-					<uiIconColor>(65,79,86)</uiIconColor>
+					<uiIconColor>(76,91,99)</uiIconColor>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "archotechmatteraddingsomecraptoavoidproblems"]/stuffProps/color</xpath>
 				<value>
 					<color>(65,79,86)</color>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/WorkGiverDef[defName = "DoBillsSexyArchotechWorkbench"]/gerund</xpath>
+				<value>
+					<gerund>making prothean items at</gerund>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "MAG_ArchotechTorchLamp"]/comps/li[@Class="CompProperties_Glower"]/glowColor</xpath>
+				<value>
+					<glowColor>(65,79,86,0)</glowColor>
 				</value>
 			</li>
 			</operations>
