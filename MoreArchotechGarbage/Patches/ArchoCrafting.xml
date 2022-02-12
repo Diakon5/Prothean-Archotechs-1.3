@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class = "PatchOperationFindMod">
+        <mods>
+            <li>
+                Vanilla Furniture Expanded - Art
+            </li>
+        </mods>
+        <match Class = "PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MakeArchotechSculpture"]/label</xpath>
+                    <value>
+                        <label>make prothean sculpture</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MakeArchotechSculpture"]/description</xpath>
+                    <value>
+                        <description>Makes a prothean sculpture.</description>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MakeArchotechSculpture"]/jobString</xpath>
+                    <value>
+                        <jobString>Making a prothean sculpture.</jobString>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+    <Operation Class = "PatchOperationFindMod">
+        <mods>
+            <li>
+                Vanilla Furniture Expanded - Power
+            </li>
+        </mods>
+        <match Class = "PatchOperationSequence">
+            <operations>
+                <!--Small Prothean cell-->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MakeArchotechVanometricCellSmall"]/label</xpath>
+                    <value>
+                        <label>make small prothean power cell</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MakeArchotechVanometricCellSmall"]/description</xpath>
+                    <value>
+                        <description>Makes a small prothean power cell</description>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MakeArchotechVanometricCellSmall"]/jobString</xpath>
+                    <value>
+                        <jobString>Making a small prothean power cell</jobString>
+                    </value>
+                </li>
+                <!--Large Prothean cell-->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MakeArchotechVanometricCellLarge"]/label</xpath>
+                    <value>
+                        <label>make large prothean power cell</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MakeArchotechVanometricCellLarge"]/description</xpath>
+                    <value>
+                        <description>Makes a large prothean power cell</description>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MakeArchotechVanometricCellLarge"]/jobString</xpath>
+                    <value>
+                        <jobString>Making a large prothean power cell</jobString>
+                    </value>
+                </li>
+                <!--Violence Prothean cell-->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MakeArchotechVanometricCellHarderDaddy"]/label</xpath>
+                    <value>
+                        <label>make prothean violence generator</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MakeArchotechVanometricCellHarderDaddy"]/description</xpath>
+                    <value>
+                        <description>Makes a prothean violence generator</description>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MakeArchotechVanometricCellHarderDaddy"]/jobString</xpath>
+                    <value>
+                        <jobString>Making a prothean violence generator</jobString>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+    <Operation Class = "PatchOperationFindMod">
+        <mods>
+            <li>
+                Vanilla Furniture Expanded - Security
+            </li>
+        </mods>
+        <match Class = "PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MakeArchotechShieldGenerator"]/label</xpath>
+                    <value>
+                        <label>make prothean shield generator</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MakeArchotechShieldGenerator"]/description</xpath>
+                    <value>
+                        <description>Makes a prothean shield generator.</description>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MakeArchotechShieldGenerator"]/jobString</xpath>
+                    <value>
+                        <jobString>Making a prothean shield generator.</jobString>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+    <Operation Class = "PatchOperationFindMod">
+        <mods>
+            <li>
+                Vanilla Factions Expanded - Vikings
+            </li>
+        </mods>
+        <match Class = "PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MakeArchotechPsychicCorn"]/label</xpath>
+                    <value>
+                        <label>make prothean cornucopia</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MakeArchotechPsychicCorn"]/description</xpath>
+                    <value>
+                        <description>Makes a prothean cornucopia.</description>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MakeArchotechPsychicCorn"]/jobString</xpath>
+                    <value>
+                        <jobString>Making a prothean cornucopia.</jobString>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+    <Operation Class = "PatchOperationFindMod">
+        <mods>
+            <li>
+                Vanilla Factions Expanded - Insectoids
+            </li>
+        </mods>
+        <match Class = "PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MakeArchotechEraser"]/label</xpath>
+                    <value>
+                        <label>make prothean eraser</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MakeArchotechEraser"]/description</xpath>
+                    <value>
+                        <description>Makes a prothean eraser.</description>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MakeArchotechEraser"]/jobString</xpath>
+                    <value>
+                        <jobString>Making a prothean eraser.</jobString>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MakeArchotechTeleporter"]/label</xpath>
+                    <value>
+                        <label>make prothean teleporter</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MakeArchotechTeleporter"]/description</xpath>
+                    <value>
+                        <description>Makes a prothean teleporter.</description>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MakeArchotechTeleporter"]/jobString</xpath>
+                    <value>
+                        <jobString>Making a prothean teleporter.</jobString>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MakeArchotechShieldBelt"]/label</xpath>
+                    <value>
+                        <label>make prothean shield belt</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MakeArchotechShieldBelt"]/description</xpath>
+                    <value>
+                        <description>Makes a prothean shield belt.</description>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MakeArchotechShieldBelt"]/jobString</xpath>
+                    <value>
+                        <jobString>Making a prothean shield belt.</jobString>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>
