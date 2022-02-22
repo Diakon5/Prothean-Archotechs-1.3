@@ -33,9 +33,187 @@
 				<texPath>Things/Item/Artifact/ArchoBionic</texPath>
 			</value>
 		</li>
-		
-		
-      
+		  <!--ArchoEye-->
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "ArchotechEye"]/label</xpath>
+			<value>
+				<label>prothean eye</label>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "ArchotechEye"]/description</xpath>
+			<value>
+				<description>An artificial eye built by the prothean. It perceives every type of electromagnetic radiation, including radio waves, infrared, light, x-rays, and gamma rays. Its visual acuity is precise enough to read handwriting from twenty meters away. It can emit various wavelengths of radiation like a flashlight, and has an internal subpersona AI which helps highlight useful visual information. Its internal workings are a mystery to human minds.</description>
+			</value>
+		</li>
+		  <!--ArchoArm-->
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "ArchotechArm"]/label</xpath>
+			<value>
+				<label>prothean arm</label>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "ArchotechArm"]/description</xpath>
+			<value>
+				<description>An artificial arm built by the prothean. It's strong enough to crush a thick hardwood branch in its hand, and precise enough to write a sonnet on a grain of rice. It looks and feels like natural flesh, but it's harder to damage than plasteel. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+			</value>
+		</li>
+		  <!--ArchoLeg-->
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "ArchotechLeg"]/label</xpath>
+			<value>
+				<label>prothean leg</label>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "ArchotechLeg"]/description</xpath>
+			<value>
+				<description>An artificial leg built by the prothean. It looks and feels like natural flesh, but a pair of these can move the user as fast as a decent car, and it's harder to damage than plasteel. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName = "PsychicDronerShipPart"]/description</xpath>
+			<value>
+				<description>An ancient ship part, torn off of a craft of unknown origin. It might be thousands of years old.\n\nThis one contains a psychic disturbance device. Using incomprehensible prothotechnologies, it generates a psychic signal that drives people and animals mad within a wide radius around itself.</description>
+			</value>
+		</li>
+		<!--Recipe Defs-->
+		  <!--ArchoEye-->
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName = "InstallArchotechEye"]/label</xpath>
+			<value>
+				<label>install prothean eye</label>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName = "InstallArchotechEye"]/description</xpath>
+			<value>
+				<description>Install an archotech eye.</description>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName = "InstallArchotechEye"]/jobString</xpath>
+			<value>
+				<jobString>Installing prothean eye.</jobString>
+			</value>
+		</li>
+		  <!--ArchoArm-->
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName = "InstallArchotechArm"]/label</xpath>
+			<value>
+				<label>install prothean arm</label>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName = "InstallArchotechArm"]/description</xpath>
+			<value>
+				<description>Install an archotech arm.</description>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName = "InstallArchotechArm"]/jobString</xpath>
+			<value>
+				<jobString>Installing prothean arm.</jobString>
+			</value>
+		</li>
+		  <!--ArchoLeg-->
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName = "InstallArchotechLeg"]/label</xpath>
+			<value>
+				<label>install prothean leg</label>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName = "InstallArchotechLeg"]/description</xpath>
+			<value>
+				<description>Install an archotech leg.</description>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName = "InstallArchotechLeg"]/jobString</xpath>
+			<value>
+				<jobString>Installing prothean leg.</jobString>
+			</value>
+		</li>
+		<!--Hediff Defs-->
+		  <!--ArchoEye-->
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/HediffDef[defName = "ArchotechEye"]/label</xpath>
+			<value>
+				<label>prothean eye</label>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/HediffDef[defName = "ArchotechEye"]/labelNoun</xpath>
+			<value>
+				<labelNoun>a prothean eye</labelNoun>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/HediffDef[defName = "ArchotechEye"]/description</xpath>
+			<value>
+				<description>An installed prothean eye.</description>
+			</value>
+		</li>
+		  <!--ArchoArm-->
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/HediffDef[defName = "ArchotechArm"]/label</xpath>
+			<value>
+				<label>prothean arm</label>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/HediffDef[defName = "ArchotechArm"]/labelNoun</xpath>
+			<value>
+				<labelNoun>a prothean arm</labelNoun>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/HediffDef[defName = "ArchotechArm"]/description</xpath>
+			<value>
+				<description>An installed prothean arm.</description>
+			</value>
+		</li>
+		  <!--ArchoLeg-->
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/HediffDef[defName = "ArchotechLeg"]/label</xpath>
+			<value>
+				<label>prothean leg</label>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/HediffDef[defName = "ArchotechLeg"]/labelNoun</xpath>
+			<value>
+				<labelNoun>a prothean leg</labelNoun>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/HediffDef[defName = "ArchotechLeg"]/description</xpath>
+			<value>
+				<description>An installed prothean leg.</description>
+			</value>
+		</li>
+		<!--Thing Category Def-->
+		  <li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingCategoryDef[defName = "BodyPartsArchotech"]/label</xpath>
+			<value>
+				<label>prothean</label>
+			</value>
+		</li>
+		<!--Game Condition Defs-->
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/GameConditionDef[defName = "PsychicDrone"]/description</xpath>
+			<value>
+				<description>A distant prothean is emitting psychic signals through an orbital amplifier, driving people towards insanity.</description>
+			</value>
+		</li>
+		  <li Class="PatchOperationReplace">
+			<xpath>/Defs/GameConditionDef[defName = "PsychicSoothe"]/description</xpath>
+			<value>
+				<description>A distant prothean is emitting psychic signals through an orbital amplifier, calming people and stabilizing their minds.</description>
+			</value>
+		</li>
       </operations>
    </Operation>
 </Patch>

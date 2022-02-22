@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>More Archotech Garbage Reupload</li>
-		</mods>
-		<match Class="PatchOperationSequence">
-			<!--<success>Always</success>-->
-			<operations>
+	<Operation Class="PatchOperationSequence">
+		<operations>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ResearchTabDef[defName = "MRA"]/label</xpath>
 				<value>
@@ -88,19 +83,25 @@
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ArchoMechSummoner"]/label</xpath>
 				<value>
-					<label>Mechanoid Summoner</label>
+					<label>mechanoid Summoner</label>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "ArchoMeteorSummon"]/label</xpath>
 				<value>
-					<label>Meteorite Beacon</label>
+					<label>meteorite Beacon</label>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName = "RaidorJoinorTameorManhunter"]/label</xpath>
 				<value>
-					<label>Prothean Psychic Manipulator</label>
+					<label>prothean Psychic Manipulator</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "MAG_ArchotechBatteryS"]/label</xpath>
+				<value>
+					<label>prothean battery</label>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -1430,25 +1431,13 @@
 	<!--Misc-->				
 			
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName = "MAG_ArchotechWall"]/graphicData/color</xpath>
+				<xpath>/Defs/ThingDef[defName = "MAG_ArchotechWall" or defName = "MAG_ArchotechDoor"]/graphicData/color</xpath>
 				<value>
 					<color>(76,91,99)</color>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName = "MAG_ArchotechDoor"]/graphicData/color</xpath>
-				<value>
-					<color>(76,91,99)</color>
-				</value>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName = "MAG_ArchotechWall"]/uiIconColor</xpath>
-				<value>
-					<uiIconColor>(76,91,99)</uiIconColor>
-				</value>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName = "MAG_ArchotechDoor"]/uiIconColor</xpath>
+				<xpath>/Defs/ThingDef[defName = "MAG_ArchotechWall" or defName = "MAG_ArchotechDoor"]/uiIconColor</xpath>
 				<value>
 					<uiIconColor>(76,91,99)</uiIconColor>
 				</value>
@@ -1466,12 +1455,12 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName = "MAG_ArchotechTorchLamp"]/comps/li[@Class="CompProperties_Glower"]/glowColor</xpath>
+				<xpath>/Defs/ThingDef[defName = "MAG_ArchotechTorchLamp" or
+					defName = "ArchotechScrap"]/comps/li[@Class="CompProperties_Glower"]/glowColor</xpath>
 				<value>
-					<glowColor>(65,79,86,0)</glowColor>
+					<glowColor>(180,227,213,0)</glowColor>
 				</value>
 			</li>
-			</operations>
-		</match>
+		</operations>
 	</Operation>
 </Patch>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>The Joris Experience</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+				<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName = "JE_MAG_TotallyArchotechJorris"]/label</xpath>
+					<value>
+						<label>prothean joris</label>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName = "JE_MAG_TotallyArchotechJorris"]/description</xpath>
+					<value>
+						<description>This is the peak of prothean technology, strong, resilient, fast, sexy, no creature or device can match its power. It has no ulterior motives.</description>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/PawnKindDef[defName = "JE_MAG_TotallyArchotechJorris"]/label</xpath>
+					<value>
+						<label>prothean Joris</label>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/RecipeDef[defName = "MAG_SummonArchotechJoris"]/label</xpath>
+					<value>
+						<label>summon prothean Joris</label>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/HediffDef[defName = "JE_MAG_ArchoThought"]/label</xpath>
+					<value>
+						<label>prothean daddy power</label>
+					</value>
+
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/HediffDef[defName = "JE_MAG_ArchoThought"]/description</xpath>
+					<value>
+						<description>A prothean Joris polar bear is nearby, giving its slaves the power to see, hear and feel (OwO) everything...</description>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/PawnKindDef[defName = "JE_MAG_TotallyArchotechJorris"]/label</xpath>
+					<value>
+						<label>prothean joris</label>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName = "MAG_ArchotechJorisSummon"]/label</xpath>
+					<value>
+						<label>prothean joris incubator</label>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName = "MAG_ArchotechJorisSummon"]/description</xpath>
+					<value>
+						<description>A prothean Joris incubator. It will create a prothean Joris.</description>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/RecipeDef[defName = "MAG_SummonArchotechJoris"]/label</xpath>
+					<value>
+						<label>summon prothean Joris</label>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/RecipeDef[defName = "MAG_SummonArchotechJoris"]/description</xpath>
+					<value>
+						<description>summons a prothean Joris.</description>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/RecipeDef[defName = "MAG_SummonArchotechJoris"]/jobString</xpath>
+					<value>
+						<jobString>summoning prothean Joris.</jobString>
+					</value>
+				</li>
+				</operations>
+		</match>
+	</Operation>
+</Patch>

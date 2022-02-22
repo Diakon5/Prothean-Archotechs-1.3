@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>RimBees</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class = "PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="RB_ResearchPapersFabricatedHyper"]/comps/li[@Class="RimBees.CompProperties_BeeResearchImages"]/textForTheImage</xpath>
+					<value>
+						<textForTheImage>Fabricated + Hyper = Protho</textForTheImage>
+					</value>
+				</li>
+				<li Class = "PatchOperationReplace">
+					<xpath>/Defs/ThingDef[@Name="RB_ArchoBeeBase"]/description</xpath>
+					<value>
+						<description>Protho bees are the pinnacle of bee evolution. Fast, efficient, sexy.\n\nBee Traits:\n\nProduction time: 18 hours\nNocturnal: Yes\nPluviophile: Yes\nUnusual plants needed: None\nMinimum Temperature: -10ºC\nMaximum temperature: 40ºC</description>
+					</value>
+				</li>
+				<li Class = "PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="RB_Bee_Archo_Drone"]/label</xpath>
+					<value>
+						<label>protho drone</label>
+					</value>
+				</li>
+				<li Class = "PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="RB_Bee_Archo_Queen"]/label</xpath>
+					<value>
+						<label>protho queen</label>
+					</value>
+				</li>
+				<li Class = "PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="RB_ArchotechBeehouse"]/label</xpath>
+					<value>
+						<label>prothean beehouse</label>
+					</value>
+				</li>
+				<li Class = "PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="RB_ArchotechBeehouse"]/description</xpath>
+					<value>
+						<description>A prothean beehouse where bees will live and generate honeycombs for you. This beehouse is climatized, so bees can operate in extremely cold or hot biomes. This beehouse consumes no electricity. Speeds up honeycomb production by 150%.\n\nA working beehouse will have a beneficial effect on any plant crops in a 6 tile radius (displayed when selected) around it: harvested plants have a 25% chance to generate a partially grown pollinated offshoot of the same plant. Bear in mind that bees should be active at the moment the harvesting takes place.</description>
+					</value>
+				</li>
+				<li Class = "PatchOperationReplace">
+					<xpath>/Defs/RecipeDef[defName="RB_CentrifugeArchoComb"]/label</xpath>
+					<value>
+						<label>extract from prothean comb</label>
+					</value>
+				</li>
+				<li Class = "PatchOperationReplace">
+					<xpath>/Defs/RecipeDef[defName="RB_CentrifugeArchoComb"]/description</xpath>
+					<value>
+						<description>Centrifuges a prothean comb to extract honey, wax and prothean fragments</description>
+					</value>
+				</li>
+				<li Class = "PatchOperationReplace">
+					<xpath>/Defs/RecipeDef[defName="RB_CentrifugeArchoComb"]/jobString</xpath>
+					<value>
+						<jobString>Extracting honey, wax and prothean fragments</jobString>
+					</value>
+				</li>
+				<li Class = "PatchOperationReplace">
+					<xpath>/Defs/RecipeDef[defName="RB_CentrifugeArchoCombBulk"]/label</xpath>
+					<value>
+						<label>bulk extract from prothean comb</label>
+					</value>
+				</li>
+				<li Class = "PatchOperationReplace">
+					<xpath>/Defs/RecipeDef[defName="RB_CentrifugeArchoCombBulk"]/description</xpath>
+					<value>
+						<description>Centrifuges a prothean comb to bulk extract honey, wax and prothean fragments</description>
+					</value>
+				</li>
+				<li Class = "PatchOperationReplace">
+					<xpath>/Defs/RecipeDef[defName="RB_CentrifugeArchoCombBulk"]/jobString</xpath>
+					<value>
+						<jobString>Extracting honey, wax and prothean fragments</jobString>
+					</value>
+				</li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

@@ -25,6 +25,12 @@
 					<label>prothean teleporter</label>
 				</value>
 			</li>
+				<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "VFEI_Apparel_ArchotechShieldBelt"]/label</xpath>
+				<value>
+					<label>prothean shield belt</label>
+				</value>
+			</li>
 			</operations>
 		</match>
 	</Operation>

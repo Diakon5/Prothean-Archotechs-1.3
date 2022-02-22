@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class = "PatchOperationFindMod">
+        <mods>
+            <li>
+                Simply More Bridges (Continued)
+            </li>
+        </mods>
+        <match Class = "PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "FloorArchotechUwU_BridgeDeep"]/label</xpath>
+                    <value>
+                        <label>prothean deep bridge</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "FloorArchotechUwU_BridgeDeep"]/description</xpath>
+                    <value>
+                        <description>A prothean floor tile. Very clean and sturdy. Despite its weight it seems to effortlessly float on water.</description>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "FloorArchotechOwO_BridgeDeep"]/label</xpath>
+                    <value>
+                        <label>simple prothean deep bridge</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "FloorArchotechOwO_BridgeDeep"]/description</xpath>
+                    <value>
+                        <description>A prothean floor tile. Very clean and sturdy. Despite its weight it seems to effortlessly float on water. Now with 50% less eye-melting patterns.</description>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

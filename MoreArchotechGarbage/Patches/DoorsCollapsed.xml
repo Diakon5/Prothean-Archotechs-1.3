@@ -1,0 +1,13 @@
+<Patch>
+    <Operation Class = "PatchOperationFindMod">
+        <mods>
+			<li>Doors Expanded</li>
+		</mods>
+        <match Class="PatchOperationReplace">
+            <xpath>/Defs/ThingDef[defName ="PH_MAG_DoorDouble" or defName = "PH_MAG_DoorTriple"]/graphicData/color</xpath>
+            <value>
+                <color>(76,91,99)</color>
+            </value>
+        </match>
+    </Operation>
+</Patch>
