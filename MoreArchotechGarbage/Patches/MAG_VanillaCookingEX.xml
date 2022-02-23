@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class = "PatchOperationFindMod">
+        <mods>
+            <li>
+                Vanilla Cooking Expanded
+            </li>
+        </mods>
+        <match Class = "PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MaG_MakeArchotechKibble"]/description</xpath>
+                    <value>
+                        <description>Make prothean kibble by compressing hay. Over half of the ingredients are "wasted".</description>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MaG_MakeArchotechKibble"]/jobString</xpath>
+                    <value>
+                        <jobString>Making prothean kibble.</jobString>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MaG_MakeArchotechSpices"]/label</xpath>
+                    <value>
+                        <label>make prothean spices</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MaG_MakeArchotechSpices"]/description</xpath>
+                    <value>
+                        <description>Make prothean spices by mixing and compressing different condiments. Over half of the ingredients are "wasted".</description>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MaG_MakeArchotechSpices"]/jobString</xpath>
+                    <value>
+                        <jobString>Making prothean spices.</jobString>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MaG_MakeArchotechPlantBulk"]/description</xpath>
+                    <value>
+                        <description>Make prothean plant matter by compressing vegetables or fruits. Over half of the ingredients are "wasted".</description>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MaG_MakeArchotechPlantBulk"]/jobString</xpath>
+                    <value>
+                        <jobString>Making prothean plant matter.</jobString>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MaG_MakeArchotechMeatBulk"]/description</xpath>
+                    <value>
+                        <description>Make prothean meat by compressing vegetables or fruits. Over half of the ingredients are "wasted".</description>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MaG_MakeArchotechMeatBulk"]/jobString</xpath>
+                    <value>
+                        <jobString>Making prothean meat.</jobString>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MaG_MakeArchotecAnimalProductBulk"]/description</xpath>
+                    <value>
+                        <description>Make prothean animal product by compressing vegetables or fruits. Over half of the ingredients are "wasted".</description>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MaG_MakeArchotecAnimalProductBulk"]/jobString</xpath>
+                    <value>
+                        <jobString>Making prothean animal product.</jobString>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MaG_MakeArchotechKibbleInBulk"]/description</xpath>
+                    <value>
+                        <description>Make prothean kibble by compressing hay. Over half of the ingredients are "wasted".</description>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MaG_MakeArchotechKibbleInBulk"]/jobString</xpath>
+                    <value>
+                        <jobString>Making prothean kibble.</jobString>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThoughtDef[defName = "AteArchoVialVCE"]/stages/li[1]/label</xpath>
+                    <value>
+                        <label>consumed prothean spices</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "ArchoNutVial"]/label</xpath>
+                    <value>
+                        <label>prothean spices</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/HediffDef[defName = "VCE_ConsumedArchotechVial"]/label</xpath>
+                    <value>
+                        <label>consumed prothean spices (from meal)</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/HediffDef[defName = "VCE_ConsumedArchotechVial"]/description</xpath>
+                    <value>
+                        <description>Consuming prothean spices has given this pawn a small boost</description>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

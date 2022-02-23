@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class = "PatchOperationFindMod">
+        <mods>
+            <li>
+                Vanilla Furniture Expanded
+            </li>
+        </mods>
+        <match Class = "PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "MAG_GarbageBin"]/label</xpath>
+                    <value>
+                        <label>prothean cleaner</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "MAG_GarbageBin"]/description</xpath>
+                    <value>
+                        <description>A small prothean device that cleans filth in a very large radius.</description>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+    <Operation Class = "PatchOperationFindMod">
+        <mods>
+            <li>
+                Vanilla Furniture Expanded - Farming
+            </li>
+        </mods>
+        <match Class = "PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "MAG_VFE_ArchotechSprinkler"]/label</xpath>
+                    <value>
+                        <label>prothean plant moisturizer</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "MAG_VFE_ArchotechSprinkler"]/description</xpath>
+                    <value>
+                        <description>A prothean device that accelerates plant growth by sending water directly into the plants' cells. This doesn't make it that more effective than a normal sprinkler, but the device does have significantly bigger range.</description>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class = "PatchOperationFindMod">
+        <mods>
+            <li>
+                Vanilla Fishing Expanded
+            </li>
+        </mods>
+        <match Class = "PatchOperationReplace">
+            <xpath>/Defs/ThingDef[defName = "MAG_VCEF_ArchotechFish"]/label</xpath>
+            <value>
+                <label>prothean fish</label>
+            </value>
+        </match>
+    </Operation>
+</Patch>
