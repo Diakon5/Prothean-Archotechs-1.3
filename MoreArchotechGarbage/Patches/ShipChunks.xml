@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class = "PatchOperationFindMod">
+        <mods>
+            <li>
+                Various Space Ship Chunk (Continued)
+            </li>
+        </mods>
+        <match Class = "PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "ShipChunk_MAG_large"]/label</xpath>
+                    <value>
+                        <label>small prothean chunk</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "ShipChunk_MAG_large"]/description</xpath>
+                    <value>
+                        <description>A small chunk of a prothean device. Can be deconstructed to yield useful prothean fragments and some prothean mass.</description>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "ShipChunk_MAG_small"]/label</xpath>
+                    <value>
+                        <label>prothean chunk</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "ShipChunk_MAG_small"]/description</xpath>
+                    <value>
+                        <description>A chunk of a prothean device. Can be deconstructed to yield useful prothean fragments and some prothean mass.</description>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

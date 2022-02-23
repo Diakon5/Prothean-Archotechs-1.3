@@ -78,6 +78,18 @@
 						<jobString>Extracting honey, wax and prothean fragments</jobString>
 					</value>
 				</li>
+				<li Class = "PatchOperationReplace">
+					<xpath>/Defs/RecipeDef[defName="MAG_RB_ArchotechHoney"]/label</xpath>
+					<value>
+						<label>prothean honey</label>
+					</value>
+				</li>
+				<li Class = "PatchOperationReplace">
+					<xpath>/Defs/RecipeDef[defName="MAG_RB_ArchotechHoney"]/description</xpath>
+					<value>
+						<description>This honey has been extracted from prothean honeycombs. It is very nutricious, never spoils and produces a sense of euphoria when ingested. Honey can be consumed raw or cooked with other ingredients.</description>
+					</value>
+				</li>
             </operations>
         </match>
     </Operation>

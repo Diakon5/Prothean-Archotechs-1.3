@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class = "PatchOperationFindMod">
+        <mods>
+            <li>
+                [O21] Seamless Embrasures
+            </li>
+        </mods>
+        <match Class = "PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "MAG_O21_Embrasure_Letterbox"]/label</xpath>
+                    <value>
+                        <label>prothean embrasure (letterbox)</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "MAG_O21_Embrasure_Hole"]/label</xpath>
+                    <value>
+                        <label>prothean embrasure (hole)</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "MAG_O21_Embrasure_Letterbox"
+                        or defName = "MAG_O21_Embrasure_Hole"]/graphicData/color</xpath>
+                    <value>
+                        <color>(76,91,99)</color>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

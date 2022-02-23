@@ -5,10 +5,10 @@
             <li>Dubs Bad Hygiene</li>
         </mods>
         <match Class = "PatchOperationReplace">
-                    <xpath>/Defs/ThingDef[defName = "MAG_ArchotechWaterThing"]/description</xpath>
-                    <value>
-                        <description>A prothean device capable of taking care of any water problems. It generates it, pumps it, stores it and cleans it while requiring no power.</description>
-                    </value>
+            <xpath>/Defs/ThingDef[defName = "MAG_ArchotechWaterThing"]/description</xpath>
+            <value>
+                <description>A prothean device capable of taking care of any water problems. It generates it, pumps it, stores it and cleans it while requiring no power.</description>
+            </value>
         </match>
     </Operation>
 </Patch>

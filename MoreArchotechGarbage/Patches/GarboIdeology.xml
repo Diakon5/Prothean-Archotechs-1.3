@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Unfinished-->
+<Patch>
+    <Operation Class = "PatchOperationFindMod">
+        <mods>
+            <li>
+                Ideology
+            </li>
+        </mods>
+        <match Class = "PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "ArchoLampThingDark"]/label</xpath>
+                    <value>
+                        <label>prothean darklight</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "ArchoLampThingDark"]/description</xpath>
+                    <value>
+                        <description>This prothean device can dimly light up a large area without requiring any power of fuel.</description>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+    <Operation Class = "PatchOperationFindMod">
+        <mods>
+            <li>
+                Ideology
+            </li>
+            <li>
+                More Archotech Garbage - craftable fragments
+            </li>
+        </mods>
+        <match>
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName = "ArchoTechTierFour"]/label</xpath>
+                    <value>
+                        <label>Prothean Technology Tier 4</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName = "ArchoTechTierFour"]/description</xpath>
+                    <value>
+                        <description>Decrypt the fourth tier of prothean blueprints.</description>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class = "PatchOperationFindMod">
+        <mods>
+            <li>
+                Save Our Ship 2
+            </li>
+        </mods>
+        <match Class = "PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "MAG_ArchotechRepairingAura"]/label</xpath>
+                    <value>
+                        <label>prothean restorator</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "MAG_ArchotechRepairingAura"]/description</xpath>
+                    <value>
+                        <description>A prothean device that repairs any objects and extinguishes any fires in range. Fits into a wall.</description>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>
