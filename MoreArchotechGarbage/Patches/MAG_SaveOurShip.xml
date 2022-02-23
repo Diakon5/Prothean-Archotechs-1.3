@@ -9,15 +9,15 @@
         <match Class = "PatchOperationSequence">
             <operations>
                 <li Class="PatchOperationReplace">
-                    <xpath>/Defs/ThingDef[defName = "MAG_ArchotechRepairingAura"]/label</xpath>
+                    <xpath>/Defs/ThingDef[defName = "MAG_Ship_Engine_Small"]/label</xpath>
                     <value>
-                        <label>prothean restorator</label>
+                        <label>prothean ship engine</label>
                     </value>
                 </li>
                 <li Class="PatchOperationReplace">
                     <xpath>/Defs/ThingDef[defName = "MAG_ArchotechRepairingAura"]/description</xpath>
                     <value>
-                        <description>A prothean device that repairs any objects and extinguishes any fires in range. Fits into a wall.</description>
+                        <description>A prothean engine. It uses prothean fragments as a fuel source, 10 fragments will fully fuel the engine. One of these is comparable to 25 standard engines.  Can't be used to launch a ship into orbit, due to build-in safety measures.</description>
                     </value>
                 </li>
             </operations>
