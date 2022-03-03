@@ -110,6 +110,306 @@
                         <description>Consuming prothean spices has given this pawn a small boost</description>
                     </value>
                 </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "MAG_VanometricPot"]/label</xpath>
+                    <value>
+                        <label>prothean liquid processor</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "MAG_VanometricPot"]/description</xpath>
+                    <value>
+                        <description>A prothean liquid processor. It appears to be slightly altering time during cooking, greatly speeding up the process. It requires no power or fuel to function, and produces <b>hyper soup</b>.</description>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "MAG_ArchotechCheesePress"]/label</xpath>
+                    <value>
+                        <label>prothean time alteration chamber</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "MAG_ArchotechCheesePress"]/description</xpath>
+                    <value>
+                        <description>A prothean device with a chamber containing what appears to be a time-altering anomaly. Using it for the purpose of aging cheese and alcohol was an obvious and logical step.</description>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "MAG_ArchotechCookingStove"]/label</xpath>
+                    <value>
+                        <label>prothean stove</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "MAG_ArchotechCookingStove"]/description</xpath>
+                    <value>
+                        <description>A stove equipped with the tools necessary for prothean-level cooking, said tools seem to be appearing and disappearing out of existence seemingly at random. Normal cooking and butchering recipes can still be performed, with a boost to speed and efficiency. Cooking at it seems to yield more meals that usual, it's impossible to tell where they are coming from though. It requires no power or fuel to function.</description>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/WorkGiverDef[defName = "DoBillsMAG_ArchotechStove"]/label</xpath>
+                    <value>
+                        <label>cook prothean things</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/WorkGiverDef[defName = "DoBillsMAG_ArchotechStove"]/gerund</xpath>
+                    <value>
+                        <gerund>cooking prothean food at</gerund>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "MAG_ArchotechCheese"]/label</xpath>
+                    <value>
+                        <label>prothean cheese</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "MAG_ArchotechCheese"]/description</xpath>
+                    <value>
+                        <description>A strange block of cheese created by a prothean device. When eaten it changes its form to match the texture and taste of the consumer's favourite type of cheese. It also glows for some reason.</description>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThoughtDef[defName = "AteArchoMAGCheese"]/stages/li[1]/label</xpath>
+                    <value>
+                        <label>ate prothean cheese</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/HediffDef[defName = "MAG_ConsumedArchotechCheese"]/label</xpath>
+                    <value>
+                        <label>consumed prothean cheese (from meal)</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/HediffDef[defName = "MAG_ConsumedArchotechCheese"]/description</xpath>
+                    <value>
+                        <description>Consuming prothean cheese has given this pawn a defense boost.</description>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MAG_CookArchotechUncookedSoup"]/label</xpath>
+                    <value>
+                        <label>prepare prothean soup</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MAG_CookArchotechUncookedSoup"]/description</xpath>
+                    <value>
+                        <description>Prepare an uncooked prothean soup.</description>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MAG_CookArchotechUncookedSoup"]/jobString</xpath>
+                    <value>
+                        <jobString>Preparing prothean soup.</jobString>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "MAG_UncookedArchotechSoup"]/label</xpath>
+                    <value>
+                        <label>uncooked prothean soup</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "MAG_UncookedArchotechSoup"]/description</xpath>
+                    <value>
+                        <description>An uncooked prothean soup. This needs to be cooked in a prothean pot to be edible.</description>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "MAG_ArchotechSoup"]/label</xpath>
+                    <value>
+                        <label>prothean soup</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "MAG_ArchotechSoup" or defName = "MAG_ArchotechBake"]/description</xpath>
+                    <value>
+                        <description>A special meal prepared with prothean ingredients. Delicious and healthy.</description>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "MAG_archotechgrill"]/label</xpath>
+                    <value>
+                        <label>prothean grill</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "MAG_archotechgrill"]/description</xpath>
+                    <value>
+                        <description>A special meal prepared with prothean ingredients. Delicious and healthy. It’s so filling that consuming it almost removes any need to eat for a few days.</description>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/HediffDef[defName = "ArchoGrillBoost"]/label</xpath>
+                    <value>
+                        <label>Prothean Grill boost</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/HediffDef[defName = "ArchoGrillBoost"]/description</xpath>
+                    <value>
+                        <description>After eating a prothean grill this pawn won't need to eat for a few days.</description>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MAG_CookArchotechGrill"]/label</xpath>
+                    <value>
+                        <label>cook prothean grill</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MAG_CookArchotechGrill"]/description</xpath>
+                    <value>
+                        <description>Cook a prothean grill.</description>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MAG_CookArchotechGrill"]/jobString</xpath>
+                    <value>
+                        <jobString>Cooking prothean grill.</jobString>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "MAG_ArchotechBake"]/label</xpath>
+                    <value>
+                        <label>prothean bake</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MAG_CookArchotechBake"]/label</xpath>
+                    <value>
+                        <label>cook prothean bake</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MAG_CookArchotechBake"]/description</xpath>
+                    <value>
+                        <description>Cook a prothean bake.</description>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MAG_CookArchotechBake"]/jobString</xpath>
+                    <value>
+                        <jobString>Cooking prothean bake.</jobString>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "MAG_ArchotechDessert"]/label</xpath>
+                    <value>
+                        <label>prothean dessert</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "MAG_ArchotechDessert"]/description</xpath>
+                    <value>
+                        <description>A strange dessert from prothean ingredients. Its flavour has been said to be putting an end to the worst of mental distress.</description>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThoughtDef[defName = "MAG_AteArchotechDessert"]/stages/li[1]/label</xpath>
+                    <value>
+                        <label>ate prothean dessert</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MAG_CookArchotechDessert"]/label</xpath>
+                    <value>
+                        <label>cook prothean dessert</label>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MAG_CookArchotechDessert"]/description</xpath>
+                    <value>
+                        <description>Cook a prothean dessert.</description>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName = "MAG_CookArchotechDessert"]/jobString</xpath>
+                    <value>
+                        <jobString>Cooking prothean dessert.</jobString>
+                    </value>
+                </li>
+                <li Class="PatchOperationFindMod">
+					<mods>
+						<li>Vanilla Brewing Expanded</li>
+					</mods>
+					<match Class="PatchOperationSequence">
+						<operations>
+                            <li Class="PatchOperationReplace">
+                                <xpath>/Defs/RecipeDef[defName = "MAG_MakeArchotechSodaSyrup"]/label</xpath>
+                                <value>
+                                    <label>make prothean soda syrup</label>
+                                </value>
+                            </li>
+                            <li Class="PatchOperationReplace">
+                                <xpath>/Defs/RecipeDef[defName = "MAG_MakeArchotechSodaSyrup"]/description</xpath>
+                                <value>
+                                    <description>Make prothean syrup by mixing prothean plant matter with prothean spices.</description>
+                                </value>
+                            </li>
+                            <li Class="PatchOperationReplace">
+                                <xpath>/Defs/RecipeDef[defName = "MAG_MakeArchotechSodaSyrup"]/jobString</xpath>
+                                <value>
+                                    <jobString>Making prothean soda syrup.</jobString>
+                                </value>
+                            </li>
+                            <li Class="PatchOperationReplace">
+                                <xpath>/Defs/ThingDef[defName = "MAG_ArchotechSodaSyrup"]/label</xpath>
+                                <value>
+                                    <label>prothean soda syrup</label>
+                                </value>
+                            </li>
+                            <li Class="PatchOperationReplace">
+                                <xpath>/Defs/ThingDef[defName = "MAG_ArchotechSoda"]/label</xpath>
+                                <value>
+                                    <label>prothean soda</label>
+                                </value>
+                            </li>
+                            <li Class="PatchOperationReplace">
+                                <xpath>/Defs/ThingDef[defName = "MAG_ArchotechSoda"]/description</xpath>
+                                <value>
+                                    <description>A very sweet beverage created by a prothean device. It has the ability to change its flavor and coloring to match the consumer's preference. Provides an ureasonably strong sugar rush, removing the consumer's need to sleep for up to 2 days.</description>
+                                </value>
+                            </li>
+                            <li Class="PatchOperationReplace">
+                                <xpath>/Defs/ThoughtDef[defName = "MAG_DrankArchotechSoda"]/stages/li[1]/label</xpath>
+                                <value>
+                                    <label>Prothean sugar rush</label>
+                                </value>
+                            </li>
+                            <li Class="PatchOperationReplace">
+                                <xpath>/Defs/HediffDef[defName = "MAG_DrankArchotechSoda"]/label</xpath>
+                                <value>
+                                    <label>drank prothean soda</label>
+                                </value>
+                            </li>
+                        </operations>
+                    </match>
+                </li>
+                <li Class="PatchOperationFindMod">
+					<mods>
+						<li>Vanilla Ideology Expanded - Memes and Structures</li>
+					</mods>
+					<match Class="PatchOperationSequence">
+						<operations>
+                            <li Class="PatchOperationReplace">
+                                <xpath>/Defs/HistoryEventDef[defName = "VME_AteArchotechDessert"]/label</xpath>
+                                <value>
+                                    <label>ate prothean dessert</label>
+                                </value>
+                            </li>
+                            <li Class="PatchOperationReplace">
+                                <xpath>/Defs/ThoughtDef[defName = "MAG_AteArchotechDessert_Craved"]/stages/li[1]/label</xpath>
+                                <value>
+                                    <label>ate prothean dessert (craved)</label>
+                                </value>
+                            </li>
+                        </operations>
+                    </match>
+                </li>
             </operations>
         </match>
     </Operation>

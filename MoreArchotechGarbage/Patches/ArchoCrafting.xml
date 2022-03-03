@@ -30,6 +30,38 @@
             </operations>
         </match>
     </Operation>
+    <Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Royalty</li>
+		</mods>
+		<match Class="PatchOperationFindMod">
+            <mods>
+                <li>More Utility Packs</li>
+            </mods>
+            <match Class = "PatchOperationSequence">
+                <operations>
+                    <li Class="PatchOperationReplace">
+                        <xpath>/Defs/RecipeDef[defName = "MakeArchoJumpPack"]/label</xpath>
+                        <value>
+                            <label>make prothean Grav-Pack</label>
+                        </value>
+                    </li>
+                    <li Class="PatchOperationReplace">
+                        <xpath>/Defs/RecipeDef[defName = "MakeArchoJumpPack"]/description</xpath>
+                        <value>
+                            <description>Makes a prothean Grav-Pack.</description>
+                        </value>
+                    </li>
+                    <li Class="PatchOperationReplace">
+                        <xpath>/Defs/RecipeDef[defName = "MakeArchoJumpPack"]/jobString</xpath>
+                        <value>
+                            <jobString>Making a prothean Grav-Pack.</jobString>
+                        </value>
+                    </li>
+                </operations>
+            </match>
+        </match>
+    </Operation>
     <Operation Class = "PatchOperationFindMod">
         <mods>
             <li>
